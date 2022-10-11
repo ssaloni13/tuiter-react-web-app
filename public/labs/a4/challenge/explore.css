@@ -1,8 +1,3 @@
-body{
-    background-color: white;
-    border: rgb(47, 51,54) 1px;
-    max-width: 1400px;
-}
 
 .wd-search-field{
     border: 1px solid darkgray;
@@ -123,7 +118,6 @@ body{
     float: left;
     padding: 12px;
 
-
 }
 
 .wd-div-middle{
@@ -132,19 +126,39 @@ body{
     float: left;
     padding: 12px;
     position: relative;
+    border: rgb(22, 24, 28) 1px solid;
+
 }
 
 .wd-div-right{
     width: 30%;
-    height: 100%;
+    height: 30%;
     position: relative;
     float: right;
-    border: gray 1px solid;
+    border: rgb(22, 24, 28) 1px solid;
     margin-top: 12px;
     padding-top: 12px;
+    background-color: rgb(22, 24, 28);
+    border-radius: 15px;
 
 }
 .container {
     width: 100%;
     height: 100%;
+}
+
+.btn-primary.override-bs {
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    border-color: white;
+}
+
+.wd-div-right-down{
+    width: 30%;
+    height: 70%;
+    position: relative;
+    float: right;
+    margin-top: 12px;
+    padding-top: 12px;
 }
