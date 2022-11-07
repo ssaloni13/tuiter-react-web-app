@@ -1,0 +1,30 @@
+.wd-pr {
+    border: 1px solid red;
+    padding-right: 50px;
+}
+
+.wd-n{
+    border: 1px solid blue;
+}
+
+.p-img{
+    width: 100%;
+}
+
+.p-img-pf{
+    margin-top: -60px;
+    margin-left: 20px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+}
+
+.wd-edit-pf{
+    margin-top: 10px;
+    margin-left: 350px;
+}
+
+.fandf{
+    font-weight: bold;
+}
