@@ -1,8 +1,9 @@
 import React from "react";
 // import tuitsReducer from "./tuits-reducer";
 import {useDispatch, useSelector} from "react-redux";
-import {createTuit,deleteTuit} from "./tuits-reducer";
+// import {createTuit,deleteTuit} from "./tuits-reducer";
 import {Heart, Chat, Upload, Check2, Repeat, HeartFill} from "react-bootstrap-icons";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 
 const TuitItem = (
@@ -29,11 +30,11 @@ const TuitItem = (
 ) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
-    const createTuitHandler = (id) => {
-        dispatch(createTuit(id))
-    }
+    // const createTuitHandler = (id) => {
+    //     dispatch(createTuit(id))
+    // }
     return(
         <li className="list-group-item">
             <div className="row">

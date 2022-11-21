@@ -13,7 +13,7 @@ import {Provider} from "react-redux";
 import ProfileComponent from "./profile";
 import EditProfileComponent from "./editProfile";
 const store = configureStore(
-    {reducer: {who: whoReducer, tuits: tuitsReducer}});
+    {reducer: {who: whoReducer, tuitsData: tuitsReducer}});
 
 
 
